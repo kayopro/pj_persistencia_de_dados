@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // Conectando ao banco de dados MongoDB
-mongoose.connect("mongodb+srv://usarApp:s4ads123@aulaweb.aefv2ko.mongodb.net", {
+mongoose.connect("mongodb+srv://usarApp:@aulaweb.aefv2ko.mongodb.net", {
   retryWrites: true,
   w: "majority",
   appName: "AulaWeb",
